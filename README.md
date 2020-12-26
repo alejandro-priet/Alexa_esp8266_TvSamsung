@@ -18,11 +18,13 @@ IResp8266 : github version
 Usefull Links:
 
 https://github.com/kakopappa/sinric/blob/master/arduino_examples/tv_codec_ir_example.ino
+
 https://maker.pro/arduino/projects/voice-controlled-tv
 
 Libraries: 
 
 https://github.com/crankyoldgit/IRremoteESP8266
+
 https://arduinojson.org/ ::: 5.0
 
 
