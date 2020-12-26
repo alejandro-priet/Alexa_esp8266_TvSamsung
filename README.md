@@ -9,10 +9,10 @@ TV_Rec = .ino -> Arduino nano , sensor : tsop4838 (Reciver)
 in Samsung_tv_AA59-00582A.ods -> decoded controller
 
 
-App : 
-Sinric.com
+App : Sinric.com
 
 ArduinoJson : 5.0
+
 IResp8266 : github version
 
 Usefull Links:
