@@ -18,9 +18,9 @@ ESP8266WiFiMulti WiFiMulti;
 WebSocketsClient webSocket;
 WiFiClient client;
 
-#define MyApiKey "9b24940c-29e3-4f92-9a80-fdc2198d0f70" // TODO: Change to your sinric API Key. Your API Key is displayed on sinric.com dashboard
-#define MySSID "FritzBox7390-Home" // TODO: Change to your Wifi network SSID
-#define MyWifiPassword "1426Gro5410!413596440777" // TODO: Change to your Wifi network password
+#define MyApiKey "xxxxxxxx-xxxxx-xxxx-xxxxx-xxxxxxxxx" // TODO: Change to your sinric API Key. Your API Key is displayed on sinric.com dashboard
+#define MySSID "xxxxxxxxxx" // TODO: Change to your Wifi network SSID
+#define MyWifiPassword "xxxxxxxxxxxxxxxxxx" // TODO: Change to your Wifi network password
 
 #define API_ENDPOINT "http://sinric.com"
 #define HEARTBEAT_INTERVAL 300000 // 5 Minutes 
@@ -91,7 +91,7 @@ void sendSignal(long unsigned int irSignal,char *irSignalCommand)
 }
 
 void TogglePower(String deviceId) {
-  if (deviceId == "5fe7320e8a66e26a4b87dc0d") // TODO: Change to your device Id for TV
+  if (deviceId == "xxxxxxxxxxxxxxxxxxxxxxxxxxx") // TODO: Change to your device Id for TV
   {  
      irsend.sendSAMSUNG(0xE0E040BF,32);  // Send a power signal to Samsung TV.
      delay(DELAY_BETWEEN_COMMANDS);
@@ -99,7 +99,7 @@ void TogglePower(String deviceId) {
 }
 
 void ToggleMute(String deviceId) {
-  if (deviceId == "5fe7320e8a66e26a4b87dc0d") // TODO: Change to your device Id for TV
+  if (deviceId == "xxxxxxxxxxxxxxxxxxxxxxxxxxxx") // TODO: Change to your device Id for TV
   {  
      irsend.sendSAMSUNG(0xE0E0F00F,32);  // Send a power signal to Samsung TV.
      delay(DELAY_BETWEEN_COMMANDS);
